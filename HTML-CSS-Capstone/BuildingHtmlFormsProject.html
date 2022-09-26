@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Building Forms Project</title>
+</header>
+    <body>
+        <form action="Submit/url" method="post">
+            <fieldset>
+                <legend>Student Survey</legend>
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName">
+                </div>
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div>
+                    <label for="status" name="user_status_name">Status</label>
+                    <select>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Student">Student</option>
+                        <option value="Quest">Quest</option>
+                    </select>
+                </div>
+                <div>
+                    <form>
+                        <p>What is your favorite Coding Language?</p>
+                        <input type="radio" name="code_option"> Python<br>
+                        <input type="radio" name="code_option"> Javascript<br>
+                        <input type="radio" name="code_option"> C, Baby!<br>
+                    </form>
+                </div>
+                <div>
+                    <textarea type="text" maxlength="250" cols="50" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="date" name="date">Select Current Date</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label for="newsletter"><input type="checkbox">Sign Up For Newsletter</label><br>
+                    <label for="newsletter"><input type="checkbox">Agree to Terms and Conditions</label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+        
+    </body>
+</html>

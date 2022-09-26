@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+    <title>HTML/CSS Capstone</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    </head>
+
+
+    <body>
+
+        <nav class="navbar">
+            <img src="stoicheader.png" class="headerimage">
+            <ul class="navitem-container">
+                <li class="navitems"><a href="Home.html">Home</a></li>
+                <li class="navitems"><a href="page2.html">Page Two</a></li>
+                <li class="navitems"><a href="page3.html">Page Three</a></li>
+                <li class="navitems"><a href="page4.html">Page Four</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="formcontainer">
+            <form action="Submit/url" method="post">
+                <fieldset class="formcontainer-main">
+                    <legend>The Stoic Form Submission</legend>
+                    <div>
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName">
+                    </div>
+                    <div>
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div>
+                        <label for="status" name="user_status_name">Status</label>
+                        <select>
+                            <option value="Teacher">Stoic</option>
+                            <option value="Student">Not Philosophical</option>
+                            <option value="Quest">Wondering</option>
+                            <option value="Quest">I Don't Care</option>
+                        </select>
+                    </div>
+                    <div>
+                        <form>
+                            <p>Who is your favorite Stoic Philosopher?</p>
+                            <input type="radio" name="code_option"> Marcus Aurelius<br>
+                            <input type="radio" name="code_option"> Seneca<br>
+                            <input type="radio" name="code_option"> Socrates<br>
+                            <input type="radio" name="code_option"> Diogenes<br>
+                        </form>
+                    </div>
+                    <div>
+                        <p>Do you have additional things to say about Stoicism?</p>
+                        <textarea type="text" maxlength="250" cols="50" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <br>
+                        <label for="date" name="date">Select Current Date</label>
+                        <input type="date">
+                    </div>
+                    <div>
+                        <br>
+                        <label for="newsletter"><input type="checkbox">Sign Up For The Stoic Newsletter</label>
+                        <br>
+                        <br>
+                        <label for="newsletter"><input type="checkbox">Agree to Use Logic in All Things</label>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <button type="submit" class="formsubmit">Submit</button>
+                    </div>
+    
+                </fieldset>
+            </form>
+
+            </form>
+        </div>
+
+    </body>
+
+
+</html>
