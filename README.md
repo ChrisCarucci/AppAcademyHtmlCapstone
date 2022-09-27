@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/10932134/192186482-fa3d749f-3211-405b-
 - View Some Stoic Principles(Main Page)
 - View Some Links For Stoic Rsources(Second Page)
 - Submit a Form With Some Basic Stoic Questions
-- View Some Stoic Pictures with Quotes In Them And Click Them To Be Linked
+- View Some Stoic Pictures with Quotes In Them And Click Them To Be Linked Elsewhere
 
 ## Languages/addons used:
 - Html5
